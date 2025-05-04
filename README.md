@@ -2,6 +2,10 @@
 
 Welcome to the Simon Says game! This is a fun, interactive game built using HTML, CSS, and JavaScript. It challenges your memory and reflexes with progressively longer sequences, all while tracking your high scores. The game is designed with a responsive layout so you can enjoy it on any device—desktop, tablet, or mobile.
 
+#PLAY
+You can try my game using the below link:
+https://iamkdp.github.io/SimonSaysGame/
+
 ## Features
 
 - **High Score System:** Keep track of your best performances and challenge yourself to beat your high score.
