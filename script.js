@@ -91,7 +91,7 @@ howtoplaybtn.onclick=()=>{
     };
 closepopup.onclick=()=>howtoplaypopup.style.display='none';
 
-//High score
+//High Score
 let highscore=localStorage.getItem('simonHighScore') || 0;
 document.getElementById('highscoreval').textContent=highscore;
 function updateHighScore(currentScore){

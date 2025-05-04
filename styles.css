@@ -1,14 +1,13 @@
 body
 {   font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: grey;
     margin: 0;
 }
 h1{
     font-family: 'Comic Sans';
-    color:rgb(10, 83, 112);
-    font-weight: bolder;
-    background-color: dimgray;
+    color: rgb(17, 21, 77);
+    font-style: oblique;
 }
 button{
     font-family: 'Arial Rounded MT Bold';
@@ -16,27 +15,33 @@ button{
 .box-container{
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .btn{
-    height: 70px;
-    width: 70px;
+    height: 25vh;
+    min-height: 100px;
+    max-height: 200px;
+    width: 25vw;
+    min-width: 100px;
+    max-width: 200px;
     border-radius: 24%;
-    border: 5px solid #000000;
-    margin: 0.5rem;
+    border: 3px solid #000000d5;
+    margin: 1rem;
 }
 .red{
-    background-color: rgba(236, 43, 43,0.7);
+    background-color: rgba(236, 43, 43,1);
 }
 .green{
-    background-color: rgba(160, 241, 38,0.7);
+    background-color: rgba(160, 241, 38,1);
 }
 .blue
 {
-    background-color: rgba(137, 37, 230,0.7);
+    background-color: rgba(137, 37, 230,1);
 }
 .orange{
-    background-color: rgba(226, 157, 29,0.7);
+    background-color: rgba(226, 157, 29,1);
 }
 .flash
 {
@@ -85,9 +90,4 @@ transition: ease-in-out;
 #highScore
 {
 display: none;
-}
-footer{
-    position: absolute;
-    bottom: 10px;
-    left: 35%;
 }
