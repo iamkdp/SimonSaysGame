@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <h1>Simon Says Game</h1>
+    </header>
+    <main>
+    <div
+    class="howtoplay">
+    <button id="howtoplaybtn">How to play?</button>
+</div>
+<div id="highScore">
+   High Score: <span id="highscoreval">0</span>
+</div>
+   
+   <div id="howtoplaypopup">
+    <ul>
+        <li>Press any key to start</li>
+        <li>Watch the colors blinking (Remember )</li>
+        <li>Repeat the pattern by clicking them in order</li>
+        <li>Repeat steps 2 and 3</li>
+        <li>One mistake=Game over</li>
+    </ul>
+    <button id="closepopup">Close</button>
+   </div>
+   <h2>Press any key to start Game</h2>
+   <section>
+    <div class="box-container">
+        <div class="line-one">
+        <div class="btn red" id="red">1</div>
+        <div class="btn green" id="green">2</div>
+        </div>
+    <div class="line-two">
+        <div class="btn orange" id="orange">3</div>
+        <div class="btn blue" id="blue">4</div>
+    </div>
+
+</div>
+</section>
+</main>
+<footer >
+    &copy;Developed by DurgaPrasadK &hearts; 
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

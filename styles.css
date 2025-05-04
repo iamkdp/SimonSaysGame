@@ -1,0 +1,93 @@
+body
+{   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+h1{
+    font-family: 'Comic Sans';
+    color:rgb(10, 83, 112);
+    font-weight: bolder;
+    background-color: dimgray;
+}
+button{
+    font-family: 'Arial Rounded MT Bold';
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 24%;
+    border: 5px solid #000000;
+    margin: 0.5rem;
+}
+.red{
+    background-color: rgba(236, 43, 43,0.7);
+}
+.green{
+    background-color: rgba(160, 241, 38,0.7);
+}
+.blue
+{
+    background-color: rgba(137, 37, 230,0.7);
+}
+.orange{
+    background-color: rgba(226, 157, 29,0.7);
+}
+.flash
+{
+background-color: white;
+}
+.userflash
+{
+background-color: green;
+}
+#id
+{
+
+text-align: right;
+}
+.howtoplay{
+position: absolute;
+top:43px;
+right:5px;
+z-index: 1000;
+}
+#howtoplaybtn,#closepopup
+{
+padding: 8px 16px;
+width: 20vw;
+font-size: 15px;
+background-color: cadetblue;
+border-radius: 10%;
+cursor: pointer;
+&:hover{
+    background-color: rgb(68, 205, 50);
+}
+}
+#howtoplaypopup{
+display: none;
+background-color: rgba(127, 255, 212,0.5);
+border: 1px solid #cccc;
+box-shadow: 0 2px 8px #0002;
+transition: ease-in-out;
+}
+#howtoplaypopup>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: numeric;
+    align-items: flex-start;
+}
+#highScore
+{
+display: none;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+}
